@@ -11,8 +11,8 @@ import be.vdab.goededoel.domain.GoedeDoel;
 @RequestMapping("/")
 class IndexController {
 
-	@GetMapping
-	public ModelAndView index() {
-		return new ModelAndView("index").addObject(new GoedeDoel("CliniClowns"));
-	}
+    @GetMapping
+    public ModelAndView index() {
+        return new ModelAndView("index").addObject(new GoedeDoel("CliniClowns"));
+    }
 }
